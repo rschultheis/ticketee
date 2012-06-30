@@ -6,11 +6,8 @@ describe ProjectsController do
     Factory(:project)
   end
 
-  let(:user) do
-    user = Factory(:user)
-    user.confirm!
-    user
-  end
+  let(:user) { create_user! }
+
   context "Standard users" do
     { "new" => "get",
     "create" => "post",
