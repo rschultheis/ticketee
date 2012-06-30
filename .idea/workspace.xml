@@ -4,6 +4,7 @@
     <list default="true" id="1c336499-2b74-4afe-8e93-49eca672ed8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
     </list>
     <ignored path="ticketee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +38,16 @@
       <file leaf-file-name="projects_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="29" selection-start="971" selection-end="971" vertical-scroll-proportion="0.88114756">
+            <state line="39" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.7991803">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,15 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factories.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/factories.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/features/creating_projects.feature" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/features/editing_projects.feature" />
         <option value="$PROJECT_DIR$/features/deleting_projects.feature" />
         <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
+        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       </list>
     </option>
@@ -214,6 +215,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticketee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +438,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Cucumber.deleting_projects">
+  <component name="RunManager" selected="Rake.cucumber:ok">
     <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console" temporary="true">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -516,6 +549,39 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProjectsController" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ticketee" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ProjectsController" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -786,7 +852,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <list size="9">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Rails.Production: ticketee" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: ticketee" />
       <item index="2" class="java.lang.String" itemvalue="Rake.test" />
@@ -796,6 +862,7 @@
       <item index="6" class="java.lang.String" itemvalue="Cucumber.viewing_projects" />
       <item index="7" class="java.lang.String" itemvalue="Cucumber.editing_projects" />
       <item index="8" class="java.lang.String" itemvalue="Cucumber.deleting_projects" />
+      <item index="9" class="java.lang.String" itemvalue="RSpec.ProjectsController" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -903,13 +970,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/projects/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="57" selection-end="57" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/project.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="36" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
@@ -1008,9 +1068,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="971" selection-end="971" vertical-scroll-proportion="0.88114756">
+        <state line="39" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.7991803">
           <folding />
         </state>
       </provider>
