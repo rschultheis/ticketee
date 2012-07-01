@@ -1,8 +1,15 @@
 Ticketee::Application.routes.draw do
 
+  get "registrations_controller/after_inactive_signup_path_for"
+
   #get "users/index"
 
-  devise_for :users
+  devise_for :users, :controllers => { :registrations => 'registrations' }
+
+  get 'awaiting_confirmation',
+      :to => "users#confirmation",
+      :as => 'confirm_user'
+
 
   root :to => "projects#index"
 
