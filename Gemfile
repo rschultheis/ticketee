@@ -41,5 +41,9 @@ group :test do
   gem 'email_spec'
 end
 
+#authentication and permissioning
 gem 'devise', '~> 1.4.3'
 gem 'cancan'
+
+#file attachments uploading
+gem 'paperclip'
