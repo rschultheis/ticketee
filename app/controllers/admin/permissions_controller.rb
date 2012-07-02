@@ -4,6 +4,9 @@ class Admin::PermissionsController < Admin::BaseController
   def index
     @ability = Ability.new(@user)
     @projects = Project.all
+
+    dbg = @user.permissions
+    p dbg
   end
 
   def update
