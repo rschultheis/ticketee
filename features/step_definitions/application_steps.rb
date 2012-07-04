@@ -6,3 +6,7 @@ Then /^I should not see the "(.*?)" element$/ do |css|
   page.should_not(have_css(css),
   "Expected to not see the css #{css} element, but did.")
 end
+
+#And /I sleep for (\d+) second/ do |secs|
+#  sleep secs.to_i
+#end
