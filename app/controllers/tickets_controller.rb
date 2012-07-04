@@ -39,6 +39,9 @@ class TicketsController < ApplicationController
 
   def update
     if @ticket.update_attributes(params[:ticket])
+      if can?(:tag, @ticket.project) || current_user.admin?
+        @ticket.tag!(params[:tags])
+      end
       flash[:notice] = "Ticket has been updated."
       redirect_to [@project, @ticket]
     else
