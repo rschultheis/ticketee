@@ -28,6 +28,12 @@ Ticketee::Application.routes.draw do
     resources :users do
       resources :permissions
     end
+
+    resources :states do
+      member do
+        get :make_default
+      end
+    end
   end
 
   put '/admin/users/:user_id/permissions',
