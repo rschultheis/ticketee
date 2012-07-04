@@ -7,6 +7,6 @@ Then /^I should not see the "(.*?)" element$/ do |css|
   "Expected to not see the css #{css} element, but did.")
 end
 
-#And /I sleep for (\d+) second/ do |secs|
-#  sleep secs.to_i
-#end
+And /sleep for (\d+) seconds?/ do |secs|
+  sleep secs.to_i
+end

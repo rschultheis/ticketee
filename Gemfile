@@ -48,3 +48,6 @@ gem 'cancan'
 
 #file attachments uploading
 gem 'paperclip'
+
+#searching via query
+gem 'searcher'
